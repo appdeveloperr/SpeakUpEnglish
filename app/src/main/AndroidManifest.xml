@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ahsens.speakupenglish">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".stdForm" />
+        <activity android:name=".tchForm" />
+        <activity android:name=".stdIn" />
+        <activity android:name=".tchIn" />
+        <activity android:name=".admIn" />
+        <activity android:name=".stdMenu" />
+        <activity android:name=".tchMenu" />
+        <activity android:name=".Trial" />
+        <activity android:name=".speechTotext" />
+        <activity android:name=".paraList" />
+        <activity android:name=".evAI" />
+        <activity android:name=".evTech" />
+        <activity android:name=".admPanel" />
+        <activity android:name=".Easy" />
+        <activity android:name=".Inter" />
+        <activity android:name=".Hard" />
+        <activity android:name=".News" />
+        <activity android:name=".Mag" />
+        <activity android:name=".Result" />
+        <activity android:name=".tchText" />
+        <activity android:name=".showParagraph" />
+        <activity android:name=".Stdlist" />
+        <activity android:name=".Evaluation" />
+        <activity android:name=".Books" />
+        <activity android:name=".StuList" />
+        <activity android:name=".tList" />
+        <activity android:name=".delUser" />
+        <activity android:name=".ResultList" />
+        <activity android:name=".AiResultList" />
+        <activity android:name=".AIResultCard"></activity>
+    </application>
+
+</manifest>

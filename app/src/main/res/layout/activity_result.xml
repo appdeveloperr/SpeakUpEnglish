@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.example.ahsens.speakupenglish.Result">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="4">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:weightSum="3"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="1"
+                    android:text="Marks"
+                    android:textSize="20dp"
+                    android:textAllCaps="false"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorAccent"
+                    android:background="@drawable/button"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="2"
+                    android:text=""
+                    android:textSize="20dp"
+                    android:textAllCaps="false"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorAccent"
+                    android:background="@drawable/button"
+                    android:id="@+id/marks"/>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:weightSum="3"
+                android:id="@+id/l1"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="1"
+                    android:text="Grade"
+                    android:textSize="20dp"
+                    android:textAllCaps="false"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorAccent"
+                    android:background="@drawable/button"
+                    android:id="@+id/h1"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="2"
+                    android:text=""
+                    android:textSize="20dp"
+                    android:textAllCaps="false"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorAccent"
+                    android:background="@drawable/button"
+                    android:id="@+id/grade"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:weightSum="3"
+                android:id="@+id/l2"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="1"
+                    android:text="Percentage"
+                    android:textSize="20dp"
+                    android:textAllCaps="false"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorAccent"
+                    android:background="@drawable/button"
+                    android:id="@+id/h2"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="2"
+                    android:text=""
+                    android:textSize="20dp"
+                    android:textAllCaps="false"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorAccent"
+                    android:background="@drawable/button"
+                    android:id="@+id/perc"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:weightSum="3"
+
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="1"
+                    android:text="Checked by"
+                    android:textSize="20dp"
+                    android:textAllCaps="false"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorAccent"
+                    android:background="@drawable/button"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="2"
+                    android:text=""
+                    android:textSize="20dp"
+                    android:textAllCaps="false"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorAccent"
+                    android:background="@drawable/button"
+                    android:id="@+id/checkedT"/>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:weightSum="2"
+                android:id="@+id/l3"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="Original"
+                    android:textSize="20dp"
+                    android:textAllCaps="false"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorAccent"
+                    android:background="@drawable/button1"
+                    android:id="@+id/h3"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text=""
+                    android:textSize="15dp"
+                    android:textAllCaps="false"
+                    android:textAlignment="center"
+                    android:maxLength="500"
+                    android:textColor="@color/colorAccent"
+                    android:background="@drawable/button1"
+                    android:id="@+id/org"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:weightSum="2"
+                android:id="@+id/l4"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="Your"
+                    android:textSize="20dp"
+                    android:textAllCaps="false"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorAccent"
+                    android:background="@drawable/button1"
+                    android:id="@+id/h4"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_weight="1"
+                    android:text=""
+                    android:textSize="15dp"
+                    android:textAllCaps="false"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorAccent"
+                    android:maxLength="500"
+                    android:background="@drawable/button1"
+                    android:id="@+id/your"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:weightSum="2"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="Recording by you"
+                    android:textSize="20dp"
+                    android:textAllCaps="false"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorAccent"
+                    android:background="@drawable/button1"
+                    />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_weight="1"
+                    android:text="Your Audio"
+                    android:textSize="15dp"
+                    android:textAllCaps="false"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorAccent"
+                    android:maxLength="500"
+                    android:background="@drawable/button"
+                    android:id="@+id/yourR"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:weightSum="2"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="Recording by teacher"
+                    android:textSize="20dp"
+                    android:textAllCaps="false"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorAccent"
+                    android:background="@drawable/button1"
+                    />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_weight="1"
+                    android:text="Teacher Audio"
+                    android:textSize="15dp"
+                    android:textAllCaps="false"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorAccent"
+                    android:maxLength="500"
+                    android:background="@drawable/button"
+                    android:id="@+id/tRec"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

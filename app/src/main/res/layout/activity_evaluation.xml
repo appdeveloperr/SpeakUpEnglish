@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.example.ahsens.speakupenglish.Evaluation">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="5">
+
+            <LinearLayout
+                android:layout_marginVertical="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Name"
+                    android:textColor="@color/colorAccent"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:background="@drawable/button"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Name"
+                    android:textColor="@color/colorAccent"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:id="@+id/uName"
+                    android:background="@drawable/button"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Paragraph"
+                    android:textColor="@color/colorAccent"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:background="@drawable/button"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Name"
+                    android:textColor="@color/colorAccent"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:id="@+id/pName"
+                    android:background="@drawable/button"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Original"
+                    android:textColor="@color/colorAccent"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:maxLength="500"
+                    android:id="@+id/pOrg"
+                    android:background="@drawable/button1"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Yours"
+                    android:textColor="@color/colorAccent"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:maxLength="500"
+                    android:id="@+id/uData"
+                    android:background="@drawable/button1"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Marks"
+                    android:textColor="@color/colorAccent"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:background="@drawable/button"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="Add"
+                    android:textColorHint="@color/colorAccent"
+                    android:textColor="@color/colorAccent"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:id="@+id/uMarks"
+                    android:background="@drawable/button"
+                    />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="5dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Post"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorAccent"
+                    android:background="@drawable/button"
+                    android:layout_below="@id/TAudio"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginVertical="20dp"
+                    android:id="@+id/postRes"/>
+
+                <Button
+                    android:layout_marginVertical="20dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Student Audio"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorAccent"
+                    android:background="@drawable/button"
+                    android:id="@+id/uAudio"
+                    android:padding="5dp"/>
+
+                <Button
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="20dp"
+
+                    android:layout_below="@id/uAudio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Stop"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorAccent"
+                    android:background="@drawable/button"
+                    android:id="@+id/sTAudio"
+                    android:padding="5dp"/>
+
+
+                <Button
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/uAudio"
+                    android:padding="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Record your Audio"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorAccent"
+                    android:background="@drawable/button"
+                    android:id="@+id/TAudio"/>
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

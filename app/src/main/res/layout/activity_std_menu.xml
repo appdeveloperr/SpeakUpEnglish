@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.example.ahsens.speakupenglish.stdMenu">
+
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/exit"
+        android:backgroundTint="@color/colorAccent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:id="@+id/stdOut"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical"
+            android:weightSum="3">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:weightSum="1"
+            android:id="@+id/l2"
+            >
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="120dp"
+                android:layout_marginLeft="120dp"
+                android:layout_weight="1"
+                android:text="Paragraph"
+                android:textAllCaps="false"
+                android:textColor="@color/colorAccent"
+                android:background="@drawable/button"
+                android:id="@+id/para"/>
+
+        </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:weightSum="1"
+                android:id="@+id/l5"
+                >
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="120dp"
+                    android:layout_marginLeft="120dp"
+                    android:layout_weight="1"
+                    android:text="Select"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorAccent"
+                    android:background="@drawable/button"
+                    android:id="@+id/select"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:weightSum="1"
+                android:id="@+id/l4"
+                >
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginRight="120dp"
+                    android:layout_marginLeft="120dp"
+                    android:layout_weight="1"
+                    android:text="Results"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorAccent"
+                    android:background="@drawable/button"
+                    android:id="@+id/results"/>
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

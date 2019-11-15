@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "316738701199",
+    "firebase_url": "https://speakupenglish-16923.firebaseio.com",
+    "project_id": "speakupenglish-16923",
+    "storage_bucket": "speakupenglish-16923.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:316738701199:android:b87fc81426211bb9",
+        "android_client_info": {
+          "package_name": "com.example.ahsens.speakupenglish"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "316738701199-m9cmdoga0q6mcdefu6mh9jgk4dckdhmt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ahsens.speakupenglish",
+            "certificate_hash": "7961c0ac9a36d3caef8bad4b2b1f0339d9522d72"
+          }
+        },
+        {
+          "client_id": "316738701199-ud4dnl8925sk816kfh9eq7kfjf24cr83.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuaCi15EL--uaMU17Oyb5El5TNVggyxN8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "316738701199-ud4dnl8925sk816kfh9eq7kfjf24cr83.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

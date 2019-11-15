@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.example.ahsens.speakupenglish.tchForm">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="7">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_weight="1"
+        android:weightSum="1"
+        >
+
+        <EditText
+            android:inputType="textPersonName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Full Name"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorAccent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textAlignment="center"
+            android:id="@+id/fnameTch"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_weight="1"
+        android:weightSum="1"
+        >
+
+        <EditText
+            android:inputType="textPersonName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:hint="User Name"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorAccent"
+            android:textAlignment="center"
+            android:id="@+id/unameTch"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_weight="1"
+        android:weightSum="1"
+        >
+
+        <EditText
+            android:inputType="textEmailAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:hint="E-mail"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorAccent"
+            android:textAlignment="center"
+            android:id="@+id/mailTch"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_weight="1"
+        android:weightSum="1"
+        >
+
+        <EditText
+            android:inputType="textPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:hint="Password"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorAccent"
+            android:textAlignment="center"
+            android:id="@+id/pwdTch"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_weight="1"
+        android:weightSum="1"
+        >
+
+        <EditText
+            android:inputType="textPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:hint="Confirm Password"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorAccent"
+            android:textAlignment="center"
+            android:id="@+id/cpwdTch"
+            />
+
+    </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            >
+
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="20dp"
+                android:layout_centerHorizontal="true"
+                android:text="Qualification"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"
+                android:id="@+id/tv2"/>
+
+            <RadioGroup
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv2"
+                android:layout_marginTop="0dp"
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/rg3">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="BS"
+                    android:textColor="@color/colorAccent"
+                    android:textColorHint="@color/colorAccent"
+                    android:shadowColor="@color/colorAccent"
+                    android:textColorHighlight="@color/colorAccent"
+                    android:textColorLink="@color/colorAccent"
+                    android:id="@+id/bs">
+                </RadioButton>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:text="MS"
+                    android:textColor="@color/colorAccent"
+                    android:textColorHint="@color/colorAccent"
+                    android:shadowColor="@color/colorAccent"
+                    android:textColorHighlight="@color/colorAccent"
+                    android:textColorLink="@color/colorAccent"
+                    android:id="@+id/ms">
+                </RadioButton>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:text="Phd"
+                    android:textColor="@color/colorAccent"
+                    android:textColorHint="@color/colorAccent"
+                    android:shadowColor="@color/colorAccent"
+                    android:textColorHighlight="@color/colorAccent"
+                    android:textColorLink="@color/colorAccent"
+                    android:id="@+id/phd">
+                </RadioButton>
+
+            </RadioGroup>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:layout_marginTop="10dp"
+            >
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="20dp"
+                android:layout_centerHorizontal="true"
+                android:text="Origin"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"
+                android:id="@+id/tv1"/>
+
+            <RadioGroup
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv1"
+                android:layout_marginTop="0dp"
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/rg2">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:text="UK"
+                    android:textColor="@color/colorAccent"
+                    android:textColorHint="@color/colorAccent"
+                    android:shadowColor="@color/colorAccent"
+                    android:textColorHighlight="@color/colorAccent"
+                    android:textColorLink="@color/colorAccent"
+                    android:id="@+id/uk">
+                </RadioButton>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="80dp"
+                    android:text="US"
+                    android:textColor="@color/colorAccent"
+                    android:textColorHint="@color/colorAccent"
+                    android:shadowColor="@color/colorAccent"
+                    android:textColorHighlight="@color/colorAccent"
+                    android:textColorLink="@color/colorAccent"
+                    android:id="@+id/us">
+                </RadioButton>
+
+            </RadioGroup>
+
+        </RelativeLayout>
+
+
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:weightSum="1"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginRight="130dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:text="Register"
+            android:textStyle="normal"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:background="@drawable/button"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/regTch"
+            />
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

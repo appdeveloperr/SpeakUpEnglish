@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SpeakUpEnglish</string>
+
+    <array name="Clas">
+        <item>Easy</item>
+        <item>Intermediate</item>
+        <item>Hard</item>
+    </array>
+</resources>
